@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    overflow-x: hidden;
 }
 
 .bg-img{
@@ -24,9 +25,17 @@ body{
 
 .head2-text{
     color: white;
-    margin-left: 52%;
+    margin-left: 62%;
     text-align: justify;
 }
+
+.img-thumbnail{
+    width: 300px;
+    height: 100%;
+
+}
+
+
 
 .inline-headin{
     color: white;
@@ -82,25 +91,30 @@ hr{
     background-color: black;
     color: #444;
     cursor: pointer;
-    padding: 18px;
+    padding: 25px;
     border: none;
     width: 100%;
-    margin-left: 5%;
-    outline: none;
     font-size: 15px;
     transition: 0.4s;
     color: white;
+    text-align: left;
+    margin-left: 290px;
+  }
+
+  .accordion-hr{
+    width: 70% !important;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc; 
+    background-color: black; 
   }
   
   
   .panel {
     padding: 0 18px;
     display: none;
-    background-color: white;
+    background-color: black;
+    color: white;
     overflow: hidden;
   }
  
