@@ -48,13 +48,15 @@ hr{
 .foot-container{
    justify-content: space-evenly;
    display: flex;
-   border-top: orangered;
    margin-top: 45px;
    color: white;
    font-size: 10px;
 }
 
-
+.last-content{
+    display: flex;
+    margin-top: 15px;
+}
 
 
 
